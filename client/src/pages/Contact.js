@@ -20,7 +20,7 @@ function Contact() {
           <input type="text" className="form-control mb-2" placeholder="Name" value={form.name} onChange={e=>setForm({...form, name:e.target.value})} required />
           <input type="email" className="form-control mb-2" placeholder="Email" value={form.email} onChange={e=>setForm({...form, email:e.target.value})} required />
           <textarea className="form-control mb-2" rows="5" placeholder="Message" value={form.message} onChange={e=>setForm({...form, message:e.target.value})} required />
-          <button className="btn btn-primary" type="submit">Send</button>
+          <button className="btn text-white" style={{ backgroundColor: '#764ba2' }} type="submit">Send</button>
         </form>
       </div>
     </div>

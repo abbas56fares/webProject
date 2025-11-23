@@ -1,8 +1,8 @@
 import React from 'react';
-
+import '../styles/about.css';
 function About() {
   return (
-    <div className="container my-4">
+    <div id='about' className="container my-4">
       <div className="glass-card p-4">
         <h2>About HabitFlow</h2>
         <p>HabitFlow is a modern habit & productivity tracker built to help people form consistent routines through simple tracking and meaningful visual feedback.</p>

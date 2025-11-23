@@ -6,7 +6,7 @@ function Footer() {
     <footer className="py-4 mt-auto glass-footer">
       <div className="container d-flex justify-content-between flex-column flex-md-row align-items-center">
         <div><strong>HabitFlow</strong> &mdash; Build your habits daily</div>
-        <div className="text-muted">© {new Date().getFullYear()} HabitFlow Demo</div>
+        <div className="text-white">© {new Date().getFullYear()} HabitFlow Demo</div>
       </div>
     </footer>
   );
